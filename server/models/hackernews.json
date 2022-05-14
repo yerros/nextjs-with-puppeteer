@@ -1,0 +1,27 @@
+{
+  "pagination": {
+    "selector": "next_page",
+    "pages": 1
+  },
+  "header": {
+    "selector": "header"
+  },
+  "news": {
+    "selector": "row",
+    "props": [
+      {
+        "title": {
+          "selector": "title",
+          "type": "text"
+        }
+      },
+      {
+        "link": {
+          "selector": "link",
+          "type": "text",
+          "attr": "href"
+        }
+      }
+    ]
+  }
+}

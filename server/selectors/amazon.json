@@ -1,0 +1,7 @@
+{
+  "card": "div.singleCell",
+  "title": "h1#title",
+  "link": "a.singleCellTitle",
+  "image": "div.dealContainer img",
+  "next_page": "li.a-last > a#next"
+}

@@ -1,0 +1,51 @@
+{
+  "vars": {
+    "name": "amazon"
+  },
+  "pagination": {
+    "selector": "next_page",
+    "pages": 1
+  },
+  "products": {
+    "selector": "card",
+    "props": [
+      {
+        "link": {
+          "selector": "link",
+          "type": "text",
+          "attr": "href"
+        }
+      },
+      {
+        "details": {
+          "selector": "link",
+          "data": [
+            {
+              "title": {
+                "selector": "h1#title",
+                "type": "text"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "image": {
+          "selector": "image",
+          "type": "text",
+          "attr": "src"
+        }
+      },
+      {
+        "site": {
+          "var": "name"
+        }
+      },
+      {
+        "category": {
+          "var": "category"
+        }
+      }
+    ]
+  }
+}
